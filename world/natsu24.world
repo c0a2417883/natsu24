@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+    <gravity>0 0 -9.8</gravity>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <include>
+      <name>frame0</name>
+      <uri>model://natsu24_frame0</uri>
+      <pose>1.75 -0.019 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame1</name>
+      <uri>model://natsu24_frame1</uri>
+      <pose>-0.019 1.8 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame2</name>
+      <uri>model://natsu24_frame1</uri>
+      <pose>3.519 1.8 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame3</name>
+      <uri>model://natsu24_frame2</uri>
+      <pose>2.195 1.288 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame4</name>
+      <uri>model://natsu24_frame3</uri>
+      <pose>0.719 0.25 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame5</name>
+      <uri>model://natsu24_frame3</uri>
+      <pose>1.457 0.25 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame6</name>
+      <uri>model://natsu24_frame4</uri>
+      <pose>1.538 1.519 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame7</name>
+      <uri>model://natsu24_frame4</uri>
+      <pose>0.638 2.557 0.0445 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>frame8</name>
+      <uri>model://natsu24_frame5</uri>
+      <pose>1.3715 3.6445 0.019 0 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
